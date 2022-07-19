@@ -1,2 +1,2 @@
-# mysite2
+# Blog 
 Django Personal Blog 
