@@ -1,8 +1,8 @@
 ## 📖 Blog 
 
-Este projeto foi feito no curso "Desenvolvedor Back-end Python" da EBAC. Um blog simples, mas funcional em Django. 
+Este projeto foi feito no curso "Desenvolvedor Back-end Python" da EBAC. Um blog simples em Django. 
 
-Dentre as funcionalidades pode-se criar posts, e comenta-los. Os comentários são permitidos ou não pelo administrador, para evitar conteúdos inapropriados. 
+Pode-se criar posts, e comenta-los. Os comentários são permitidos ou não pelo administrador, para evitar conteúdos inapropriados.
 
 ![Captura de tela de 2022-07-26 15-25-09](https://user-images.githubusercontent.com/78339857/181085782-9e67c58c-946f-4e04-b7b9-c4d02840d437.png)
 ![Captura de tela de 2022-07-26 15-25-42](https://user-images.githubusercontent.com/78339857/181086249-e87ddded-9179-45b7-aad5-ba03fbeae5bd.png)
@@ -35,7 +35,9 @@ $ pip install -r requirements.txt
 
 * Vamos criar a estrutura no banco de dados:
 ``` 
-python manage.py migrate
+$ cd mysite2project/
+
+$ python3 manage.py migrate
 ``` 
 
 <br>
@@ -56,7 +58,8 @@ $ python3 manage.py runserver
 
 Acesse http://127.0.0.1:8000/home/ para ir para a página principal do nosso Blog. 
 
-Acesse http://127.0.0.1:8000/admin/ para ir para a interface de administrador do Django, utilize seu usuário e senha para entrar.
+Acesse http://127.0.0.1:8000/admin/ para ir para a interface de administrador do Django, utilize seu usuário e senha para entrar. 
+Lá você terá controle do projeto inteiro, desde os posts e o controle dos comentários.
 
 <br>
 
