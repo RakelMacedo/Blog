@@ -11,9 +11,9 @@ Pode-se criar posts, e comenta-los. Os comentários são permitidos ou não pelo
 
 * Clone o repositório e vá para a sua pasta:
 ```
-$ git clone https://github.com/RakelMacedo/blog-ebac.git
+$ git clone https://github.com/RakelMacedo/Blog.git
 
-$ cd blog-ebac/
+$ cd Blog/
 ```
 <br>
 
@@ -35,8 +35,6 @@ $ pip install -r requirements.txt
 
 * Vamos criar a estrutura no banco de dados:
 ``` 
-$ cd mysite2project/
-
 $ python3 manage.py migrate
 ``` 
 
